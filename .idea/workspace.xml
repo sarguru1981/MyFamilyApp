@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e922561-f263-4eb8-a7b0-878adb78590a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/buildSrc/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android_Application" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Application" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/.idea/.gitignore" beforeDir="false" />
@@ -51,7 +50,8 @@
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/assets/dependencies.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dependencies.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/assets/refer_dependency.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/refer_dependency.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LLoyds" beforeDir="false" afterPath="$PROJECT_DIR$/../../LLoyds" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyFamilyApp/app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyFamilyApp/app/build.gradle" beforeDir="false" />

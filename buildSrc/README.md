@@ -10,7 +10,7 @@ plugins{
 }
 ```
 Create a file Dependencies.kt and need to define required dependencies & it's versions to make that variables accessible through all modules.
-![Dependencies file code](/tree/main/buildSrc/assets/dependencies.jpg)
+![Dependencies file code](assets/dependencies.png)
 
 As a last step reference dependency from Dependencies object
-![Referring dependency library from Dependencies object](/tree/main/buildSrc/assets/refer_dependency.jpg)
+![Referring dependency library from Dependencies object](assets/refer_dependency.png)
