@@ -9,7 +9,7 @@ plugins{
     `kotlin-dsl`
 }
 ```
-Create a file Dependencies.kt and need to define required dependencies & it's versions to make that variables accessible through all modules.
+And create **src/main/kotlin** in **buildSrc** directory. We will then create a file Dependencies.kt and need to define required dependencies & it's versions to make that variables accessible through all modules.
 ![Dependencies file code](assets/dependencies.png)
 
 As a last step reference dependency from Dependencies object
