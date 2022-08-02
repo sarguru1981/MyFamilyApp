@@ -1,7 +1,7 @@
 class Dependencies {
 
     object Versions {
-        val kotlin_compile_version = "1.5.31"
+        val kotlin_compile_version = "1.6.10"
         val core_ktx_version = "1.8.0"
         val appcompat_version = "1.4.2"
         val android_material_version = "1.6.1"
@@ -15,8 +15,7 @@ class Dependencies {
         val espresso_version = "3.4.0"
 
         //navigation
-        val compose_navigation_version = "2.5.0"
-
+        val compose_navigation_version = "2.4.1"
 
         val gradle_version = "7.2.1"
     }

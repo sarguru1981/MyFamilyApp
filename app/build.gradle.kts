@@ -48,7 +48,6 @@ android {
 }
 
 dependencies {
-
     implementation (Dependencies.Libs.core_ktx_lib)
     implementation (Dependencies.Libs.appcompact_lib)
     implementation (Dependencies.Libs.android_material_lib)
@@ -68,4 +67,7 @@ dependencies {
 
     debugImplementation (Dependencies.Libs.compose_ui_tool_lib)
     debugImplementation (Dependencies.Libs.compose_ui_test_lib)
+
+    // navigation
+    implementation (Dependencies.Libs.compose_navigation_lib)
 }

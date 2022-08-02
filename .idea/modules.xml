@@ -10,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFamilyApp.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFamilyApp.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFamilyApp.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFamilyApp.buildSrc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFamilyApp.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFamilyApp.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/MyFamilyApp.core_ui.unitTest.iml" />
     </modules>
   </component>
 </project>
