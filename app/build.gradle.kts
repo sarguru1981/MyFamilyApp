@@ -51,7 +51,7 @@ android {
 
     dynamicFeatures.addAll(
         setOf(
-            ":moviemodule",
+            ":movie_feature",
         )
     )
 }

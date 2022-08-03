@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyFamilyApp"
 include (":app")
-include (":moviemodule")
+include (":movie_feature")

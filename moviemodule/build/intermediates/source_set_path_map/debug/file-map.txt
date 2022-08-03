@@ -1,8 +1,0 @@
-com.avr.moviemodule-pngs-0 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/build/generated/res/pngs/debug
-com.avr.moviemodule-resValues-1 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/build/generated/res/resValues/debug
-com.avr.moviemodule-rs-2 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/build/generated/res/rs/debug
-com.avr.moviemodule-packageDebugResources-3 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.avr.moviemodule-packageDebugResources-4 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.avr.moviemodule-merged_res-5 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/build/intermediates/merged_res/debug
-com.avr.moviemodule-debug-6 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/src/debug/res
-com.avr.moviemodule-main-7 /Users/sarsubra0/Workspace/Android_Workspace/FinalAndroidAppWorkspace/MyFamilyApp/moviemodule/src/main/res
