@@ -39,6 +39,9 @@ fun Navigation(navController: NavHostController) {
         composable(FeatureNavigationRoute.Home.route) {
             HomeScreen()
         }
+        composable(FeatureNavigationRoute.Posts.route) {
+            PostsScreen()
+        }
         composable(FeatureNavigationRoute.AboutMe.route) {
             AboutMeScreen()
         }
@@ -61,6 +64,7 @@ fun TopBar() {
 fun BottomNavigationBar(navController: NavController) {
     val items = listOf(
         FeatureNavigationRoute.Home,
+        FeatureNavigationRoute.Posts,
         FeatureNavigationRoute.AboutMe,
         FeatureNavigationRoute.More
     )
@@ -78,7 +82,7 @@ fun BottomNavigationBar(navController: NavController) {
                 icon = {
                     Icon(
                         imageVector = item.icon,
-                        contentDescription =null,
+                        contentDescription = null,
                         tint = Color.White
                     )
                 },

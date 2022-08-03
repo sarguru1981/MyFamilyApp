@@ -33,6 +33,25 @@ fun HomeScreen() {
 }
 
 @Composable
+fun PostsScreen() {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(id = R.color.white))
+            .wrapContentSize(Alignment.Center)
+    ) {
+        Text(
+            text = "Post Screen",
+            fontWeight = FontWeight.Bold,
+            color = Color.Black,
+            modifier = Modifier.align(Alignment.CenterHorizontally),
+            textAlign = TextAlign.Center,
+            fontSize = 25.sp
+        )
+    }
+}
+
+@Composable
 fun AboutMeScreen() {
     Column(
         modifier = Modifier

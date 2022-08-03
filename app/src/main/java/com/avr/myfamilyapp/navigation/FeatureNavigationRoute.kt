@@ -1,6 +1,7 @@
 package com.avr.myfamilyapp.navigation
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.AddCircle
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Menu
 import androidx.compose.material.icons.outlined.Person
@@ -13,12 +14,13 @@ sealed class FeatureNavigationRoute(
 ) {
 
     object Home : FeatureNavigationRoute("home", "Home", Icons.Outlined.Home)
+    object Posts : FeatureNavigationRoute("posts", "Posts", Icons.Outlined.AddCircle)
     object AboutMe : FeatureNavigationRoute("about_me", "About me", Icons.Outlined.Person)
     object More : FeatureNavigationRoute("more", "More", Icons.Outlined.Menu)
 
     object Items {
         val list = listOf(
-            Home, AboutMe, More
+            Home, Posts, AboutMe, More
         )
     }
 }
