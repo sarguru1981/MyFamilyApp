@@ -8,6 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
@@ -39,14 +40,14 @@ fun Navigation(navController: NavHostController) {
         composable(FeatureNavigationRoute.Home.route) {
             HomeScreen()
         }
-        composable(FeatureNavigationRoute.Posts.route) {
-            PostsScreen()
+        composable(FeatureNavigationRoute.Movies.route) {
+            MovieScreen()
         }
-        composable(FeatureNavigationRoute.AboutMe.route) {
-            AboutMeScreen()
+        composable(FeatureNavigationRoute.Tv.route) {
+            TVScreen()
         }
-        composable(FeatureNavigationRoute.More.route) {
-            MoreScreen()
+        composable(FeatureNavigationRoute.Profile.route) {
+            ProfileScreen()
         }
     }
 }
@@ -64,9 +65,9 @@ fun TopBar() {
 fun BottomNavigationBar(navController: NavController) {
     val items = listOf(
         FeatureNavigationRoute.Home,
-        FeatureNavigationRoute.Posts,
-        FeatureNavigationRoute.AboutMe,
-        FeatureNavigationRoute.More
+        FeatureNavigationRoute.Movies,
+        FeatureNavigationRoute.Tv,
+        FeatureNavigationRoute.Profile,
     )
     //val background=if (isSelected) MaterialTheme.colors.primary.copy(alpha = 0.1f) else Color.Transparent
     //val contentColor=if (isSelected) MaterialTheme.colors.primary else MaterialTheme.colors.onBackground
@@ -79,14 +80,8 @@ fun BottomNavigationBar(navController: NavController) {
         val currentRoute = navBackStackEntry?.destination?.route
         items.forEach { item ->
             BottomNavigationItem(
-                icon = {
-                    Icon(
-                        imageVector = item.icon,
-                        contentDescription = null,
-                        tint = Color.White
-                    )
-                },
-                label = { Text(text = item.title) },
+                icon = { Icon(painterResource(id = item.icon), contentDescription = stringResource(item.title))},
+                label = { Text(text = stringResource(item.title), fontSize = 9.sp) },
                 selectedContentColor = Color.White,
                 unselectedContentColor = Color.White,
                 alwaysShowLabel = true,

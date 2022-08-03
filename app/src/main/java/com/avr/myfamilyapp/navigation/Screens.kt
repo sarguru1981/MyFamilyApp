@@ -33,7 +33,7 @@ fun HomeScreen() {
 }
 
 @Composable
-fun PostsScreen() {
+fun MovieScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -41,7 +41,28 @@ fun PostsScreen() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Post Screen",
+            text = "Movie Screen",
+            fontWeight = FontWeight.Bold,
+            color = Color.Black,
+            modifier = Modifier.align(Alignment.CenterHorizontally),
+            textAlign = TextAlign.Center,
+            fontSize = 25.sp
+        )
+    }
+}
+
+
+
+@Composable
+fun TVScreen() {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(id = R.color.white))
+            .wrapContentSize(Alignment.Center)
+    ) {
+        Text(
+            text = "TV Screen",
             fontWeight = FontWeight.Bold,
             color = Color.Black,
             modifier = Modifier.align(Alignment.CenterHorizontally),
@@ -52,7 +73,7 @@ fun PostsScreen() {
 }
 
 @Composable
-fun AboutMeScreen() {
+fun ProfileScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -60,26 +81,7 @@ fun AboutMeScreen() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "About me Screen",
-            fontWeight = FontWeight.Bold,
-            color = Color.Black,
-            modifier = Modifier.align(Alignment.CenterHorizontally),
-            textAlign = TextAlign.Center,
-            fontSize = 25.sp
-        )
-    }
-}
-
-@Composable
-fun MoreScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(colorResource(id = R.color.white))
-            .wrapContentSize(Alignment.Center)
-    ) {
-        Text(
-            text = "More Screen",
+            text = "Profile Screen",
             fontWeight = FontWeight.Bold,
             color = Color.Black,
             modifier = Modifier.align(Alignment.CenterHorizontally),

@@ -10,6 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e922561-f263-4eb8-a7b0-878adb78590a" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_movies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_music.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android_Application" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Application" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FamilyApp/.idea/.gitignore" beforeDir="false" />
@@ -56,14 +60,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MyFamilyApp.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MyFamilyApp.app.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MyFamilyApp.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MyFamilyApp.app.unitTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation/AppBarAndBottomNavigationBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation/AppBarAndBottomNavigationBar.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation/FeatureNavigationRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation/FeatureNavigationRoute.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation/Screens.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation/Screens.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LLoyds" beforeDir="false" afterPath="$PROJECT_DIR$/../../LLoyds" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyFamilyApp/app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyFamilyApp/app/build.gradle" beforeDir="false" />
@@ -115,6 +124,7 @@
       <list>
         <option value="Kotlin Sealed Class" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -142,12 +152,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1659427543212" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1659519309941" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/avr/myfamilyapp/navigation" />
       <recent name="$PROJECT_DIR$/app" />
     </key>

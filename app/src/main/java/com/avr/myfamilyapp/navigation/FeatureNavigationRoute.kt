@@ -1,26 +1,34 @@
 package com.avr.myfamilyapp.navigation
 
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.AddCircle
-import androidx.compose.material.icons.outlined.Home
-import androidx.compose.material.icons.outlined.Menu
-import androidx.compose.material.icons.outlined.Person
-import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+import com.avr.myfamilyapp.R
+
+enum class Route(val routeName: String) {
+    HOME("home"),
+    MOVIES("movies"),
+    TV("tv"),
+    PROFILE("profile")
+}
 
 sealed class FeatureNavigationRoute(
     var route: String,
-    val title: String,
-    val icon: ImageVector,
+    @StringRes val title: Int,
+    @DrawableRes val icon: Int,
 ) {
 
-    object Home : FeatureNavigationRoute("home", "Home", Icons.Outlined.Home)
-    object Posts : FeatureNavigationRoute("posts", "Posts", Icons.Outlined.AddCircle)
-    object AboutMe : FeatureNavigationRoute("about_me", "About me", Icons.Outlined.Person)
-    object More : FeatureNavigationRoute("more", "More", Icons.Outlined.Menu)
+    object Home : FeatureNavigationRoute(Route.HOME.routeName, R.string.home, R.drawable.ic_home)
+    object Movies :
+        FeatureNavigationRoute(Route.MOVIES.routeName, R.string.movie, R.drawable.ic_movies)
+    object Tv :
+        FeatureNavigationRoute(Route.TV.routeName, R.string.tv, R.drawable.ic_music)
+    object Profile :
+        FeatureNavigationRoute(Route.PROFILE.routeName, R.string.profile, R.drawable.ic_profile)
 
     object Items {
         val list = listOf(
-            Home, Posts, AboutMe, More
+            Home, Movies, Tv, Profile
         )
     }
 }
+
