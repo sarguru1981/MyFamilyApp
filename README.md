@@ -1,4 +1,4 @@
-# MyFamilyApp
-My Family App
+# Review App
 
-* [Common Dependency](/buildSrc/README.md) Managed to have a common dependencies in a multi module project
+
+* Managed to have a [common dependencies](/buildSrc/README.md) in a multi module project
