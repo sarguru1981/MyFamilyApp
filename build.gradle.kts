@@ -3,6 +3,7 @@ plugins {
     id ("com.android.application") version (Dependencies.Versions.gradle_version) apply false
     id ("com.android.library") version (Dependencies.Versions.gradle_version) apply false
     id ("org.jetbrains.kotlin.android") version (Dependencies.Versions.kotlin_compile_version) apply false
+    id ("com.android.dynamic-feature") version (Dependencies.Versions.gradle_version) apply false
 }
 
 tasks.create<Delete>("clean") {

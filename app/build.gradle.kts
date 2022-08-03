@@ -1,6 +1,7 @@
 plugins {
     id ("com.android.application")
     id ("kotlin-android")
+    id ("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -47,6 +48,12 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    dynamicFeatures.addAll(
+        setOf(
+            ":moviemodule",
+        )
+    )
 }
 
 dependencies {
