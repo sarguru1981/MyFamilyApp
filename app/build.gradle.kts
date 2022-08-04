@@ -1,33 +1,42 @@
+import extensions.addDebugDependencies
+import extensions.addTestsDependencies
+import dependency.Dependencies
+
 plugins {
-    id ("com.android.application")
-    id ("kotlin-android")
-    id ("org.jetbrains.kotlin.android")
+    id (BuildPlugins.ANDROID_APPLICATION)
+    id (BuildPlugins.KOTLIN_ANDROID)
+    id (BuildPlugins.ORG_JETBRAINS_KOTLIN)
 }
 
 android {
-    compileSdk = 32
+    compileSdk = BuildAndroidConfig.COMPILE_SDK_VERSION
 
     defaultConfig {
-        applicationId = "com.avr.myfamilyapp"
-        minSdk = 21
-        targetSdk = 32
-        versionCode = 1
-        versionName = "1.0"
+        applicationId = BuildAndroidConfig.APPLICATION_ID
+        minSdk = BuildAndroidConfig.MIN_SDK_VERSION
+        targetSdk = BuildAndroidConfig.TARGET_SDK_VERSION
+        versionCode = BuildAndroidConfig.VERSION_CODE
+        versionName = BuildAndroidConfig.VERSION_NAME
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
-        }
+        testInstrumentationRunner = BuildAndroidConfig.TEST_INSTRUMENTATION_RUNNER
+        vectorDrawables.useSupportLibrary = BuildAndroidConfig.SUPPORT_LIBRARY_VECTOR_DRAWABLES
+        testInstrumentationRunnerArguments.putAll(BuildAndroidConfig.TEST_INSTRUMENTATION_RUNNER_ARGUMENTS)
 
         buildConfigField("String", "API_KEY", "\"480e2dd0113df13a09a661f5c4f370e0\"")
     }
 
     buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
-            )
+        getByName(BuildType.RELEASE) {
+            proguardFiles("proguard-android-optimize.txt", "proguard-rules.pro")
+            isMinifyEnabled = BuildTypeRelease.isMinifyEnabled
+            isTestCoverageEnabled = BuildTypeRelease.isTestCoverageEnabled
+        }
+
+        getByName(BuildType.DEBUG) {
+            applicationIdSuffix = BuildTypeDebug.applicationIdSuffix
+            versionNameSuffix = BuildTypeDebug.versionNameSuffix
+            isMinifyEnabled = BuildTypeDebug.isMinifyEnabled
+            isTestCoverageEnabled = BuildTypeDebug.isTestCoverageEnabled
         }
     }
     compileOptions {
@@ -41,7 +50,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = Dependencies.Versions.compose_version
+        kotlinCompilerExtensionVersion = BuildDependencyVersions.compose_version
     }
     packagingOptions {
         resources {
@@ -50,33 +59,28 @@ android {
     }
 
     dynamicFeatures.addAll(
-        setOf(
-            ":movie_feature",
+        setOf(BuildModules.Features.MOVIE,
         )
     )
 }
 
 dependencies {
-    implementation (Dependencies.Libs.core_ktx_lib)
-    implementation (Dependencies.Libs.appcompact_lib)
-    implementation (Dependencies.Libs.android_material_lib)
-    implementation (Dependencies.Libs.lifecycle_runtime_ktx_lib)
+    implementation (Dependencies.CORE_KTX)
+    implementation (Dependencies.APP_COMPACT)
+    implementation (Dependencies.MATERIAL)
+    implementation (Dependencies.LIFECYCLE_RUNTIME)
 
     // compose
-    implementation (Dependencies.Libs.compose_ui_lib)
-    implementation (Dependencies.Libs.compose_material_lib)
-    implementation (Dependencies.Libs.compose_ui_tool_preview_lib)
-    implementation (Dependencies.Libs.activity_compose_lib)
+    implementation (Dependencies.COMPOSE_UI)
+    implementation (Dependencies.COMPOSE_MATERIAL)
+    implementation (Dependencies.COMPOSE_UI_TOOL)
+    implementation (Dependencies.ACTIVITY_COMPOSE)
 
     // test
-    testImplementation (Dependencies.Libs.junit_lib)
-    androidTestImplementation (Dependencies.Libs.ext_junit_lib)
-    androidTestImplementation (Dependencies.Libs.espresso_lib)
-    androidTestImplementation (Dependencies.Libs.compose_junit_test_lib)
+    addTestsDependencies()
 
-    debugImplementation (Dependencies.Libs.compose_ui_tool_lib)
-    debugImplementation (Dependencies.Libs.compose_ui_test_lib)
+    addDebugDependencies()
 
     // navigation
-    implementation (Dependencies.Libs.compose_navigation_lib)
+    implementation (Dependencies.COMPOSE_NAVIGATION)
 }

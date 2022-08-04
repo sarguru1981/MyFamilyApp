@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.avr.myfamilyapp",
+  "applicationId": "com.avr.myfamilyapp.debug",
   "variantName": "debug",
   "elements": []
 }

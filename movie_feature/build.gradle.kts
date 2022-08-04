@@ -1,35 +1,36 @@
+import extensions.addTestsDependencies
+import dependency.Dependencies
+
 plugins {
-    id ("com.android.dynamic-feature")
-    id ("org.jetbrains.kotlin.android")
+    id(BuildPlugins.ANDROID_DYNAMIC_FEATURE)
+    id(BuildPlugins.ORG_JETBRAINS_KOTLIN)
 }
 
 android {
-    compileSdk = 32
+    compileSdk = BuildAndroidConfig.COMPILE_SDK_VERSION
 
     defaultConfig {
-      minSdk = 21
-      testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        minSdk = BuildAndroidConfig.MIN_SDK_VERSION
+        testInstrumentationRunner = BuildAndroidConfig.TEST_INSTRUMENTATION_RUNNER
     }
 
     buildTypes {
-       release {
-           isMinifyEnabled = false
-           proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-       }
+        getByName(BuildType.RELEASE){
+            proguardFiles("proguard-android-optimize.txt", "proguard-rules.pro")
+            isMinifyEnabled = BuildTypeRelease.isMinifyEnabled
+            isTestCoverageEnabled = BuildTypeRelease.isTestCoverageEnabled
+        }
     }
-    }
+}
 
 dependencies {
-    implementation(project(":app"))
+    implementation(project(BuildModules.APP))
 
-    implementation (Dependencies.Libs.core_ktx_lib)
-    implementation (Dependencies.Libs.appcompact_lib)
-    implementation (Dependencies.Libs.android_material_lib)
-    implementation (Dependencies.Libs.lifecycle_runtime_ktx_lib)
+    implementation(Dependencies.CORE_KTX)
+    implementation(Dependencies.APP_COMPACT)
+    implementation(Dependencies.MATERIAL)
+    implementation(Dependencies.LIFECYCLE_RUNTIME)
 
     // test
-    testImplementation (Dependencies.Libs.junit_lib)
-    androidTestImplementation (Dependencies.Libs.ext_junit_lib)
-    androidTestImplementation (Dependencies.Libs.espresso_lib)
-    androidTestImplementation (Dependencies.Libs.compose_junit_test_lib)
+    addTestsDependencies()
 }

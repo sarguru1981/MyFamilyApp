@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     featureSplit="movie_feature"
-    package="com.avr.myfamilyapp"
+    package="com.avr.myfamilyapp.debug"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0-DEBUG" >
 
     <uses-sdk
         android:minSdkVersion="21"

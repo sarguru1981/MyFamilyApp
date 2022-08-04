@@ -5,6 +5,6 @@ package com.avr.moviemodule;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.avr.myfamilyapp";
+  public static final String APPLICATION_ID = "com.avr.myfamilyapp.debug";
   public static final String BUILD_TYPE = "debug";
 }
