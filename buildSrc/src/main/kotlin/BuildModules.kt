@@ -3,6 +3,6 @@ object BuildModules {
     const val APP = ":app"
 
     object Features {
-        const val MOVIE = ":movie_feature"
+        const val MOVIE = ":moviemodule"
     }
 }

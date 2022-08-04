@@ -1,5 +1,6 @@
 package com.avr.myfamilyapp.navigation
 
+import android.content.Intent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
@@ -7,16 +8,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
+import androidx.core.content.ContextCompat.startActivity
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.avr.myfamilyapp.BuildConfig
 import com.avr.myfamilyapp.R
 
 @Composable
@@ -41,7 +45,9 @@ fun Navigation(navController: NavHostController) {
             HomeScreen()
         }
         composable(FeatureNavigationRoute.Movies.route) {
-            MovieScreen()
+            //MovieScreen()
+            val context = LocalContext.current
+            context.startActivity(Intent().setClassName(BuildConfig.APPLICATION_ID, "com.avr.moviemodule.MovieActivity"))
         }
         composable(FeatureNavigationRoute.Tv.route) {
             TVScreen()

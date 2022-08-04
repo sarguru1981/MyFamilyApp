@@ -76,6 +76,7 @@ fun DependencyHandler.addTestsDependencies() {
     androidTestImplementation(TestAndroidDependencies.ESPRESSO)
     androidTestImplementation(TestAndroidDependencies.EXT_JUNIT)
     androidTestImplementation(TestAndroidDependencies.COMPOSE_JUNIT)
+    androidTestImplementation(TestAndroidDependencies.ANNOTATION)
 }
 
 /**
