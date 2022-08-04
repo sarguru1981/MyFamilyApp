@@ -13,27 +13,34 @@ plugins{
 And create **src/main/kotlin** in **buildSrc** directory. Below mentioned the step by step guidelines 
 
 * We will then create a file BuildDependencyVersions.kt and need to define required dependency versions to make that variables accessible through all modules.
-![Dependency versions](assets/version.png)
+
+  ![Dependency versions](assets/version.png)
 
 * Created the BuildAndroidConfig.kt file which contains the android config details that needs to be specified in the app-level build.gradle.kts file
-![Android configs](assets/android_configs.png)
+
+  ![Android configs](assets/android_configs.png)
 
 * Created the BuildModules.kt file to represent the name of the app, library and dynamic feature modules
 
 * Created the BuildPlugins.kt file to represent the gradle plugins
-![Plugins](assets/plugins.png)
+
+  ![Plugins](assets/plugins.png)
 
 
 * Created the BuildType.kt file to represent the build variants details. i.e. release, debug details
-![Build Type](assets/buildtype.png)
+
+  ![Build Type](assets/buildtype.png)
 
 * Created the Dependencies.kt, DebugDependencies.kt, TestAndroidDependencies.kt, TestDependencies.kt files to mention the dependency libraries with its versions
-![Dependencies](assets/dependencies.png)
 
-![Dependencies](assets/test_android_dependency.png)
+  ![Dependencies](assets/dependencies.png)
+
+  ![Dependencies](assets/test_android_dependency.png)
 
 * Created the DependencyHandler.kt file to handle for adding all the tests, debug dependencies to specific configuration.
-![Dependency handler](assets/dependency_handler.png)
 
-As a last step reference dependency from Dependencies object
-![Referring dependency library from Dependencies object](assets/refer_dependency.png)
+  ![Dependency handler](assets/dependency_handler.png)
+
+* As a last step reference dependency from Dependencies object
+
+  ![Referring dependency library from Dependencies object](assets/refer_dependency.png)
