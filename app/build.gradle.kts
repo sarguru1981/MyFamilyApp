@@ -83,4 +83,5 @@ dependencies {
 
     // navigation
     implementation (Dependencies.COMPOSE_NAVIGATION)
+    implementation (Dependencies.ACCOMPANIST)
 }

@@ -16,6 +16,7 @@ object BuildDependencyVersions {
 
     //navigation
     const val compose_navigation_version = "2.4.1"
+    const val accompanist = "0.18.0"
 
     const val gradle_version = "7.2.1"
 

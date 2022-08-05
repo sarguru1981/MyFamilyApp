@@ -17,4 +17,5 @@ object Dependencies {
 
     //navigation
     const val  COMPOSE_NAVIGATION = "androidx.navigation:navigation-compose:${BuildDependencyVersions.compose_navigation_version}"
+    const val  ACCOMPANIST = "com.google.accompanist:accompanist-insets:${BuildDependencyVersions.accompanist}"
 }
