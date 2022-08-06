@@ -1,12 +1,10 @@
 package com.avr.myfamilyapp.navigation
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
+import com.avr.core.register
 import com.avr.dependency_provider.DependencyProvider
 
 @Composable
@@ -18,16 +16,16 @@ fun AppNavGraph(
         navController = navController,
         startDestination = DependencyProvider.homeFeature().homeRoute()
     ) {
-        composable(DependencyProvider.homeFeature().homeRoute()) {
-            Box(modifier = modifier) {
-                Text("home")
-            }
-        }
+        register(
+            DependencyProvider.homeFeature(),
+            navController = navController,
+            modifier = modifier
+        )
 
-        composable("settings") {
-            Box(modifier = modifier) {
-                Text("settings")
-            }
-        }
+       /* register(
+            DependencyProvider.movieFeature(),
+            navController = navController,
+            modifier = modifier
+        )*/
     }
 }

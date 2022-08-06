@@ -58,11 +58,12 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    dynamicFeatures += setOf(BuildModules.Features.MOVIE)
 
-    dynamicFeatures.addAll(
-        setOf(BuildModules.Features.MOVIE,
+    /*dynamicFeatures.addAll(
+        setOf(BuildModules.Features.MOVIE,BuildModules.Features.MOVIE_IMPL
         )
-    )
+    )*/
 }
 
 dependencies {

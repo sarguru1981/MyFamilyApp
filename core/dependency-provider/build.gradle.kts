@@ -39,6 +39,7 @@ android {
 dependencies {
 
     implementation(project(BuildModules.Features.HOME_API))
+//    implementation(project(BuildModules.Features.MOVIE))
 
     implementation(Dependencies.CORE_KTX)
 

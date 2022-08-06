@@ -28,6 +28,7 @@ enum class BottomTabs(
     MOVIES(
         R.string.movie,
         R.drawable.ic_movies,
+        //DependencyProvider.movieFeature().movieRoute()
         RouteName.MOVIES.routeName
     ),
     TVSHOWS(

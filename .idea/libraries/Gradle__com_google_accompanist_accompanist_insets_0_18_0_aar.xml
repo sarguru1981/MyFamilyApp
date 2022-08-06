@@ -1,20 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.accompanist:accompanist-insets:0.18.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3332c19cff6739ff804c2c4e39afbd2a/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/691c68ab363d391dd5bac41fc7777044/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1c4712399178f225271b4136d1cece6/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/39b7cae3fd8a5e981e63d380d841e4f7/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4ee6725ea819f1b192d04e6633282368/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/273473a2eb5384cf59e2f5183dea9d49/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/86ab2f43e0ac68d77373c9c7575e49a5/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db1afb4ab5ab5d2af761fc153dab2f2a/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6c80d217128f90f41eef522236ca1b75/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e6b28df49fc55c7d5300169f4c624dd/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1369b90827d0f462c645594918474b99/transformed/accompanist-insets-0.18.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6de4e9644b8641ee4c7aecbdf96da5b2/transformed/accompanist-insets-0.18.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6de4e9644b8641ee4c7aecbdf96da5b2/transformed/accompanist-insets-0.18.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6de4e9644b8641ee4c7aecbdf96da5b2/transformed/accompanist-insets-0.18.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ccaddf3eca5ff2bfae4aa289795193c1/transformed/accompanist-insets-0.18.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d5fcab38803c6bac043dee62a3e52440/transformed/accompanist-insets-0.18.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d5fcab38803c6bac043dee62a3e52440/transformed/accompanist-insets-0.18.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d5fcab38803c6bac043dee62a3e52440/transformed/accompanist-insets-0.18.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-insets/0.18.0/259cc28a3efd615165633d71a1d77e374f3a9e60/accompanist-insets-0.18.0-javadoc.jar!/" />
