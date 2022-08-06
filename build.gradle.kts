@@ -6,6 +6,8 @@ plugins {
     id (BuildPlugins.ANDROID_DYNAMIC_FEATURE) version (BuildDependencyVersions.gradle_version) apply false
 }
 
+
+
 tasks.create<Delete>("clean") {
     delete(rootProject.buildDir)
 }

@@ -4,7 +4,6 @@ import dependency.Dependencies
 plugins {
     id(BuildPlugins.ANDROID_DYNAMIC_FEATURE)
     id(BuildPlugins.ORG_JETBRAINS_KOTLIN)
-    // id("org.jetbrains.kotlin.android")
 }
 
 android {

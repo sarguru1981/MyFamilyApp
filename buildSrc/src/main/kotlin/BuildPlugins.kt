@@ -9,6 +9,7 @@ object BuildPlugins {
     const val KOTLIN_ANDROID = "kotlin-android"
     const val KOTLIN_ANDROID_EXTENSIONS = "kotlin-android-extensions"
     const val KOTLIN_KAPT = "kotlin-kapt"
+    const val HILT_PLUGIN = "dagger.hilt.android.plugin"
 
     const val ORG_JETBRAINS_KOTLIN = "org.jetbrains.kotlin.android"
 }

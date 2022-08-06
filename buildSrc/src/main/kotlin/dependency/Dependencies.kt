@@ -3,6 +3,9 @@ package dependency
 import BuildDependencyVersions
 
 object Dependencies {
+
+    const val hilt_gradle_plugin = "com.google.dagger:hilt-android-gradle-plugin:${BuildDependencyVersions.hilt_version}"
+
     const val  CORE_KTX = "androidx.core:core-ktx:${BuildDependencyVersions.core_ktx_version}"
     const val  APP_COMPACT = "androidx.appcompat:appcompat:${BuildDependencyVersions.appcompat_version}"
     const val  MATERIAL =
@@ -18,4 +21,11 @@ object Dependencies {
     //navigation
     const val  COMPOSE_NAVIGATION = "androidx.navigation:navigation-compose:${BuildDependencyVersions.compose_navigation_version}"
     const val  ACCOMPANIST = "com.google.accompanist:accompanist-insets:${BuildDependencyVersions.accompanist}"
+
+    //Dagger-Hilt
+    const val hilt_lib = "com.google.dagger:hilt-android:${BuildDependencyVersions.hilt_version}"
+    const val hilt_android_compiler_lib = "com.google.dagger:hilt-android-compiler:${BuildDependencyVersions.hilt_android_compiler_version}"
+    const val hilt_viewmodel_lifecycle_lib = "androidx.hilt:hilt-lifecycle-viewmodel:${BuildDependencyVersions.hilt_viewmodel_lifecycle_version}"
+    const val hilt_compiler_lib = "androidx.hilt:hilt-compiler:${BuildDependencyVersions.hilt_compiler_version}"
+    const val hilt_navigation_lib = "androidx.hilt:hilt-navigation-compose:${BuildDependencyVersions.hilt_navigation_version}"
 }

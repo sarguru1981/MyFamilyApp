@@ -2,6 +2,7 @@ package com.avr.myfamilyapp.navigation
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import com.avr.dependency_provider.DependencyProvider
 import com.avr.myfamilyapp.R
 
 enum class RouteName(val routeName: String) {
@@ -16,12 +17,13 @@ enum class BottomTabs(
     val title: Int,
     @DrawableRes
     val icon: Int,
+    //val homeFeatureApi: HomeFeatureApi,
     val route: String
 ) {
     HOME(
         R.string.home,
         R.drawable.ic_home,
-        RouteName.HOME.routeName
+        DependencyProvider.homeFeature().homeRoute()
     ),
     MOVIES(
         R.string.movie,

@@ -7,12 +7,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.avr.dependency_provider.DependencyProvider
+import com.avr.myfamilyapp.R
 import com.avr.myfamilyapp.ui.theme.MyFamilyAppTheme
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.navigationBarsHeight
@@ -27,7 +30,7 @@ fun AppContent() {
             val tabs = remember { BottomTabs.values() }
             val navController = rememberNavController()
             Scaffold(
-                backgroundColor = Color.White,
+                backgroundColor = colorResource(R.color.white),
                 bottomBar = { BottomBar(navController = navController, tabs) }
             ) { innerPaddingModifier ->
                 AppNavGraph(
@@ -43,12 +46,14 @@ fun AppContent() {
 fun BottomBar(navController: NavController, tabs: Array<BottomTabs>) {
 
     val navBackStackEntry by navController.currentBackStackEntryAsState()
-    val currentRoute = navBackStackEntry?.destination?.route ?: BottomTabs.HOME.route
+    val currentRoute = navBackStackEntry?.destination?.route ?: DependencyProvider.homeFeature().homeRoute()
 
     val routes = remember { BottomTabs.values().map { it.route } }
     if (currentRoute in routes) {
         BottomNavigation(
-            Modifier.navigationBarsHeight(additional = 56.dp)
+            Modifier.navigationBarsHeight(additional = 56.dp),
+            backgroundColor = colorResource(R.color.bar_color),
+            contentColor = colorResource(R.color.black),
         ) {
             tabs.forEach { tab ->
                 BottomNavigationItem(
@@ -72,8 +77,8 @@ fun BottomBar(navController: NavController, tabs: Array<BottomTabs>) {
                         }
                     },
                     alwaysShowLabel = false,
-                    selectedContentColor = MaterialTheme.colors.secondary,
-                    unselectedContentColor = LocalContentColor.current,
+                    selectedContentColor = Color.White,
+                    unselectedContentColor = Color.Black,
                     modifier = Modifier.navigationBarsPadding()
                 )
             }

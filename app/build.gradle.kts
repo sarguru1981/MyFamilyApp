@@ -1,11 +1,12 @@
-import extensions.addDebugDependencies
-import extensions.addTestsDependencies
 import dependency.Dependencies
+import extensions.*
+import org.gradle.kotlin.dsl.implementation
 
 plugins {
     id (BuildPlugins.ANDROID_APPLICATION)
     id (BuildPlugins.KOTLIN_ANDROID)
     id (BuildPlugins.ORG_JETBRAINS_KOTLIN)
+    id(BuildPlugins.KOTLIN_KAPT)
 }
 
 android {
@@ -65,14 +66,20 @@ android {
 }
 
 dependencies {
-    implementation (Dependencies.CORE_KTX)
-    implementation (Dependencies.APP_COMPACT)
-    implementation (Dependencies.MATERIAL)
+
+    implementation(project(BuildModules.Features.BASE_API))
+    implementation(project(BuildModules.Features.DEPENDENCY_PROVIDER))
+
+    implementation(project(BuildModules.Features.HOME_API))
+    implementation(project(BuildModules.Features.HOME_API_IMPL))
+
+    addBaseDependencies()
+
     implementation (Dependencies.LIFECYCLE_RUNTIME)
 
     // compose
-    implementation (Dependencies.COMPOSE_UI)
-    implementation (Dependencies.COMPOSE_MATERIAL)
+    addDependenciesForCompose()
+
     implementation (Dependencies.COMPOSE_UI_TOOL)
     implementation (Dependencies.ACTIVITY_COMPOSE)
 
@@ -84,4 +91,6 @@ dependencies {
     // navigation
     implementation (Dependencies.COMPOSE_NAVIGATION)
     implementation (Dependencies.ACCOMPANIST)
+
+    addDaggerDependencies()
 }
