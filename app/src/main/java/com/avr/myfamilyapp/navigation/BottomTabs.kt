@@ -34,7 +34,7 @@ enum class BottomTabs(
     TVSHOWS(
         R.string.tv,
         R.drawable.ic_music,
-        RouteName.TV.routeName
+        DependencyProvider.tvFeature().tvRoute()
     ),
     PROFILE(
         R.string.profile,

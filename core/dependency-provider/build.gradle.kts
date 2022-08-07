@@ -40,6 +40,7 @@ dependencies {
 
     implementation(project(BuildModules.Features.HOME_API))
 //    implementation(project(BuildModules.Features.MOVIE))
+    implementation(project(BuildModules.Features.TV_API))
 
     implementation(Dependencies.CORE_KTX)
 

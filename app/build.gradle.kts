@@ -74,6 +74,9 @@ dependencies {
     implementation(project(BuildModules.Features.HOME_API))
     implementation(project(BuildModules.Features.HOME_API_IMPL))
 
+    implementation(project(BuildModules.Features.TV_API))
+    implementation(project(BuildModules.Features.TV_API_IMPL))
+
     addBaseDependencies()
 
     implementation (Dependencies.LIFECYCLE_RUNTIME)

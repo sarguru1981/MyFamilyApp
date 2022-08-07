@@ -27,5 +27,11 @@ fun AppNavGraph(
             navController = navController,
             modifier = modifier
         )*/
+
+        register(
+            DependencyProvider.tvFeature(),
+            navController = navController,
+            modifier = modifier
+        )
     }
 }

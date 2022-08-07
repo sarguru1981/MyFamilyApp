@@ -34,6 +34,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/movie/feature_movie_api/MyFamilyApp.features.movie.feature_movie_api.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/movie/feature_movie_api/MyFamilyApp.features.movie.feature_movie_api.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/movie/feature_movie_api/MyFamilyApp.features.movie.feature_movie_api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/movie/feature_movie_api/MyFamilyApp.features.movie.feature_movie_api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/movie/feature_movie_api/MyFamilyApp.features.movie.feature_movie_api.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/movie/feature_movie_api/MyFamilyApp.features.movie.feature_movie_api.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/MyFamilyApp.features.tv.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/MyFamilyApp.features.tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-api/MyFamilyApp.features.tv.feature-tv-api.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tv/feature-tv-impl/MyFamilyApp.features.tv.feature-tv-impl.unitTest.iml" />
     </modules>
   </component>
 </project>
