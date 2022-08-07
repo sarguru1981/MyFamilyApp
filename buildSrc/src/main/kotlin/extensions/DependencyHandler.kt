@@ -5,6 +5,7 @@ import org.gradle.api.artifacts.dsl.DependencyHandler
 import dependency.TestAndroidDependencies
 import dependency.TestDependencies
 import dependency.DebugDependencies
+import dependency.Dependencies
 
 /**
  * Adds a dependency to the `implementation` configuration.
@@ -86,3 +87,28 @@ fun DependencyHandler.addDebugDependencies() {
     debugImplementation(DebugDependencies.COMPOSE_UI)
     debugImplementation(DebugDependencies.COMPOSE_UI_TEST)
 }
+
+fun DependencyHandler.addAPIDependencies() {
+    api(Dependencies.COMPOSE_UI)
+    api(Dependencies.COMPOSE_NAVIGATION)
+}
+
+fun DependencyHandler.addDependenciesForCompose() {
+    implementation(Dependencies.COMPOSE_UI)
+    implementation(Dependencies.COMPOSE_MATERIAL)
+}
+
+fun DependencyHandler.addBaseDependencies() {
+    implementation(Dependencies.CORE_KTX)
+    implementation(Dependencies.APP_COMPACT)
+    implementation(Dependencies.MATERIAL)
+}
+
+fun DependencyHandler.addDaggerDependencies() {
+    implementation (Dependencies.hilt_lib)
+    kapt (Dependencies.hilt_android_compiler_lib)
+    implementation (Dependencies.hilt_viewmodel_lifecycle_lib)
+    kapt (Dependencies.hilt_compiler_lib)
+    implementation (Dependencies.hilt_navigation_lib)
+}
+

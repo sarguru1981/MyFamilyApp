@@ -13,7 +13,18 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
-            <option value="$PROJECT_DIR$/moviemodule" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/dependency-provider" />
+            <option value="$PROJECT_DIR$/core/feature-base-api" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/home" />
+            <option value="$PROJECT_DIR$/features/home/feature-home-api" />
+            <option value="$PROJECT_DIR$/features/home/feature-home-impl" />
+            <option value="$PROJECT_DIR$/features/movie" />
+            <option value="$PROJECT_DIR$/features/movie/feature_movie_api" />
+            <option value="$PROJECT_DIR$/features/tv" />
+            <option value="$PROJECT_DIR$/features/tv/feature-tv-api" />
+            <option value="$PROJECT_DIR$/features/tv/feature-tv-impl" />
           </set>
         </option>
       </GradleProjectSettings>

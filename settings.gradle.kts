@@ -14,4 +14,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyFamilyApp"
 include (":app")
-include (":moviemodule")
+include(":core:feature-base-api")
+include(":features:home:feature-home-api")
+include(":features:home:feature-home-impl")
+include(":core:dependency-provider")
+include(":features:movie:feature_movie_api")
+include(":features:tv:feature-tv-api")
+include(":features:tv:feature-tv-impl")

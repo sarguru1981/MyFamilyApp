@@ -5,5 +5,5 @@
     <string name="movie">Movies</string>
     <string name="tv">TV Shows</string>
     <string name="profile">Profile</string>
-    <string name="title_activity_movie">MovieActivity</string>
+    <string name="title_feature_movie_api">Movie</string>
 </resources>
