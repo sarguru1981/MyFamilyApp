@@ -27,4 +27,26 @@ object BuildDependencyVersions {
     const val hilt_compiler_version = "1.0.0"
     const val hilt_navigation_version = "1.0.0"
 
+    // Coroutines
+    const val coroutine_version = "1.6.1"
+    const val coroutine_lifecycle_version = "2.5.0"
+
+    // flow layout
+    const val flow_layout_version = "0.24.4-alpha"
+
+    // Room
+    const val room_version = "2.4.2"
+    const val room_paginating_version = "2.5.0-alpha01"
+
+    // Retrofit
+    const val retrofit_version = "2.9.0"
+
+    //OK Http
+    const val okhttp_version = "5.0.0-alpha.2"
+
+    const val rating_bar = "1.2.3"
+
+    const val coil = "1.4.0"
+
+    const val system_ui_version = "0.17.0"
 }

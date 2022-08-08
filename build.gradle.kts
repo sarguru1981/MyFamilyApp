@@ -5,7 +5,15 @@ plugins {
     id(BuildPlugins.ORG_JETBRAINS_KOTLIN) version (BuildDependencyVersions.kotlin_compile_version) apply false
     id(BuildPlugins.ANDROID_DYNAMIC_FEATURE) version (BuildDependencyVersions.gradle_version) apply false
 }
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
 
+        maven("https://jitpack.io")
+    }
+}
 
 
 tasks.create<Delete>("clean") {

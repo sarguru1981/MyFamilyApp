@@ -30,7 +30,7 @@ fun AppContent() {
             val tabs = remember { BottomTabs.values() }
             val navController = rememberNavController()
             Scaffold(
-                backgroundColor = colorResource(R.color.white),
+                backgroundColor = Color.White,
                 bottomBar = { BottomBar(navController = navController, tabs) }
             ) { innerPaddingModifier ->
                 AppNavGraph(
@@ -78,7 +78,7 @@ fun BottomBar(navController: NavController, tabs: Array<BottomTabs>) {
                     },
                     alwaysShowLabel = false,
                     selectedContentColor = Color.White,
-                    unselectedContentColor = Color.Black,
+                    unselectedContentColor = Color.White,
                     modifier = Modifier.navigationBarsPadding()
                 )
             }

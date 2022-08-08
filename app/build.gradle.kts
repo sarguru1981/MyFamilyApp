@@ -6,7 +6,8 @@ plugins {
     id (BuildPlugins.ANDROID_APPLICATION)
     id (BuildPlugins.KOTLIN_ANDROID)
     id (BuildPlugins.ORG_JETBRAINS_KOTLIN)
-    id(BuildPlugins.KOTLIN_KAPT)
+    id (BuildPlugins.KOTLIN_KAPT)
+    id (BuildPlugins.HILT_PLUGIN)
 }
 
 android {
@@ -23,7 +24,6 @@ android {
         vectorDrawables.useSupportLibrary = BuildAndroidConfig.SUPPORT_LIBRARY_VECTOR_DRAWABLES
         testInstrumentationRunnerArguments.putAll(BuildAndroidConfig.TEST_INSTRUMENTATION_RUNNER_ARGUMENTS)
 
-        buildConfigField("String", "API_KEY", "\"480e2dd0113df13a09a661f5c4f370e0\"")
     }
 
     buildTypes {
@@ -75,7 +75,9 @@ dependencies {
     implementation(project(BuildModules.Features.HOME_API_IMPL))
 
     implementation(project(BuildModules.Features.TV_API))
-    implementation(project(BuildModules.Features.TV_API_IMPL))
+    implementation(project(BuildModules.Features.TV_PRESENTATION_LAYER))
+    implementation(project(BuildModules.Features.TV_DATA_LAYER))
+    implementation(project(BuildModules.Features.TV_DOMAIN_LAYER))
 
     addBaseDependencies()
 
@@ -97,4 +99,6 @@ dependencies {
     implementation (Dependencies.ACCOMPANIST)
 
     addDaggerDependencies()
+
+    addCoroutineAndLifecycleDependencies()
 }

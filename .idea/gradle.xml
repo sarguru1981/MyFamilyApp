@@ -23,8 +23,11 @@
             <option value="$PROJECT_DIR$/features/movie" />
             <option value="$PROJECT_DIR$/features/movie/feature_movie_api" />
             <option value="$PROJECT_DIR$/features/tv" />
+            <option value="$PROJECT_DIR$/features/tv/data" />
+            <option value="$PROJECT_DIR$/features/tv/domain" />
             <option value="$PROJECT_DIR$/features/tv/feature-tv-api" />
-            <option value="$PROJECT_DIR$/features/tv/feature-tv-impl" />
+            <option value="$PROJECT_DIR$/features/tv/presentation" />
+            <option value="$PROJECT_DIR$/features/tv/presentation/feature-tv-impl" />
           </set>
         </option>
       </GradleProjectSettings>

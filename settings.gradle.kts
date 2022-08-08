@@ -3,6 +3,17 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven("https://jitpack.io")
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if( requested.id.id == "dagger.hilt.android.plugin") {
+                useModule("com.google.dagger:hilt-android-gradle-plugin:2.40.1")
+            }
+            if( requested.id.id == "androidx.navigation.safeargs") {
+                useModule("androidx.navigation:navigation-safe-args-gradle-plugin::2.5.1")
+            }
+        }
     }
 }
 dependencyResolutionManagement {
@@ -10,6 +21,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://jitpack.io")
     }
 }
 rootProject.name = "MyFamilyApp"
@@ -20,4 +32,6 @@ include(":features:home:feature-home-impl")
 include(":core:dependency-provider")
 include(":features:movie:feature_movie_api")
 include(":features:tv:feature-tv-api")
-include(":features:tv:feature-tv-impl")
+include(":features:tv:presentation:feature-tv-impl")
+include(":features:tv:data")
+include(":features:tv:domain")

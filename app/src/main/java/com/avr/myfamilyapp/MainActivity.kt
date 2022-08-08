@@ -9,7 +9,9 @@ import com.avr.feature_home_impl.HomeFeatureImpl
 import com.avr.feature_tv_impl.TVFeatureImpl
 import com.avr.myfamilyapp.navigation.AppContent
 import com.avr.myfamilyapp.ui.theme.MyFamilyAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

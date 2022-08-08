@@ -12,6 +12,8 @@ object BuildModules {
         const val HOME_API_IMPL = ":features:home:feature-home-impl"
 
         const val TV_API = ":features:tv:feature-tv-api"
-        const val TV_API_IMPL = ":features:tv:feature-tv-impl"
+        const val TV_PRESENTATION_LAYER = ":features:tv:presentation:feature-tv-impl"
+        const val TV_DATA_LAYER = ":features:tv:data"
+        const val TV_DOMAIN_LAYER = ":features:tv:domain"
     }
 }

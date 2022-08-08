@@ -105,10 +105,32 @@ fun DependencyHandler.addBaseDependencies() {
 }
 
 fun DependencyHandler.addDaggerDependencies() {
-    implementation (Dependencies.hilt_lib)
-    kapt (Dependencies.hilt_android_compiler_lib)
-    implementation (Dependencies.hilt_viewmodel_lifecycle_lib)
-    kapt (Dependencies.hilt_compiler_lib)
-    implementation (Dependencies.hilt_navigation_lib)
+    implementation (Dependencies.HILT_LIB)
+    kapt (Dependencies.HILT_ANDROID_COMPILER)
+    implementation (Dependencies.HILT_VIEWMODEL_LIFECYCLE)
+    kapt (Dependencies.HILT_COMPILER)
+    implementation (Dependencies.HILT_NAVIGATION)
+}
+
+fun DependencyHandler.addCoroutineAndLifecycleDependencies() {
+    implementation (Dependencies.COROUTINE_CORE)
+    implementation (Dependencies.COROUTINE_ANDROID)
+    implementation (Dependencies.COROUTINE_PLAY_SERVICE)
+    implementation (Dependencies.LIFECYCLE_VIEWMODEL)
+    implementation (Dependencies.LIFECYCLE_RUNTIME)
+}
+
+fun DependencyHandler.addRetrofitDependencies() {
+    implementation (Dependencies.RETROFIT)
+    implementation (Dependencies.RETROFIT_GSON)
+    implementation (Dependencies.OKHTTP)
+}
+
+fun DependencyHandler.addRoomDependencies() {
+    implementation (Dependencies.ROOM_RUNTIME)
+    kapt (Dependencies.ROOM_COMPILER)
+    implementation (Dependencies.ROOM)
+    implementation (Dependencies.ROOM_PAGING)
+    implementation (Dependencies.ROOM_COMMON)
 }
 

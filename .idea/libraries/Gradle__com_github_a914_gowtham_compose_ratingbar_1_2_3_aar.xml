@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.a914-gowtham:compose-ratingbar:1.2.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ace8ce11d7b6cd06846a6917f3cc25d8/transformed/compose-ratingbar-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e4eba1ed22c4b2f605e11ef80665f177/transformed/compose-ratingbar-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/534cd09b589c6d04021e398bfd371b28/transformed/compose-ratingbar-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e51d9ce409e7fbfcda0767cdae42a793/transformed/compose-ratingbar-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5058c12262ab50c181d92dfdd58ec9aa/transformed/compose-ratingbar-1.2.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/61b207e9847700633e65ea2b7ba0a07c/transformed/compose-ratingbar-1.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/61b207e9847700633e65ea2b7ba0a07c/transformed/compose-ratingbar-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/61b207e9847700633e65ea2b7ba0a07c/transformed/compose-ratingbar-1.2.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.a914-gowtham/compose-ratingbar/1.2.3/40b13d0b83f0c6a7eceb5c2aa183f3a29e93407c/compose-ratingbar-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
