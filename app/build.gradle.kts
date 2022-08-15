@@ -49,6 +49,7 @@ android {
     }
     buildFeatures {
         compose = true
+        dataBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = BuildDependencyVersions.compose_version
@@ -78,6 +79,11 @@ dependencies {
     implementation(project(BuildModules.Features.TV_PRESENTATION_LAYER))
     implementation(project(BuildModules.Features.TV_DATA_LAYER))
     implementation(project(BuildModules.Features.TV_DOMAIN_LAYER))
+
+    implementation(project(BuildModules.Features.ARTIST_API))
+    implementation(project(BuildModules.Features.ARTIST_PRESENTATION_LAYER))
+    implementation(project(BuildModules.Features.ARTIST_DATA_LAYER))
+    implementation(project(BuildModules.Features.ARTIST_DOMAIN_LAYER))
 
     addBaseDependencies()
 

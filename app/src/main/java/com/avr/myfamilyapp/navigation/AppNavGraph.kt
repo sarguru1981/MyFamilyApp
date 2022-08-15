@@ -33,5 +33,11 @@ fun AppNavGraph(
             navController = navController,
             modifier = modifier
         )
+
+        register(
+            DependencyProvider.artistFeature(),
+            navController = navController,
+            modifier = modifier
+        )
     }
 }

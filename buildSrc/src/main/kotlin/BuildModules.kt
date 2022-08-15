@@ -15,5 +15,10 @@ object BuildModules {
         const val TV_PRESENTATION_LAYER = ":features:tv:presentation:feature-tv-impl"
         const val TV_DATA_LAYER = ":features:tv:data"
         const val TV_DOMAIN_LAYER = ":features:tv:domain"
+
+        const val ARTIST_API = ":features:artist:feature-artist-api"
+        const val ARTIST_PRESENTATION_LAYER = ":features:artist:presentation:feature-artist-impl"
+        const val ARTIST_DATA_LAYER = ":features:artist:artist-data"
+        const val ARTIST_DOMAIN_LAYER = ":features:artist:artist-domain"
     }
 }

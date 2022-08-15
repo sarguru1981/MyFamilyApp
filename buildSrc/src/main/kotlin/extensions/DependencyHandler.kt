@@ -134,3 +134,9 @@ fun DependencyHandler.addRoomDependencies() {
     implementation (Dependencies.ROOM_COMMON)
 }
 
+fun DependencyHandler.addRXDependencies() {
+    implementation (Dependencies.RX_JAVA)
+    implementation (Dependencies.RX_ANDROID)
+    implementation (Dependencies.RX_ADAPTER)
+}
+

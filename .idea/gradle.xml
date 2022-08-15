@@ -17,6 +17,12 @@
             <option value="$PROJECT_DIR$/core/dependency-provider" />
             <option value="$PROJECT_DIR$/core/feature-base-api" />
             <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/artist" />
+            <option value="$PROJECT_DIR$/features/artist/artist-data" />
+            <option value="$PROJECT_DIR$/features/artist/artist-domain" />
+            <option value="$PROJECT_DIR$/features/artist/feature-artist-api" />
+            <option value="$PROJECT_DIR$/features/artist/presentation" />
+            <option value="$PROJECT_DIR$/features/artist/presentation/feature-artist-impl" />
             <option value="$PROJECT_DIR$/features/home" />
             <option value="$PROJECT_DIR$/features/home/feature-home-api" />
             <option value="$PROJECT_DIR$/features/home/feature-home-impl" />

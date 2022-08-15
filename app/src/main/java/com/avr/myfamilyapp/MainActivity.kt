@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.view.WindowCompat
 import com.avr.dependency_provider.DependencyProvider
+import com.avr.feature_artist_impl.ArtistFeatureImpl
 import com.avr.feature_home_impl.HomeFeatureImpl
 import com.avr.feature_tv_impl.TVFeatureImpl
 import com.avr.myfamilyapp.navigation.AppContent
@@ -19,7 +20,8 @@ class MainActivity : ComponentActivity() {
 
         DependencyProvider.provideImpl(
             homeFeatureApi = HomeFeatureImpl(),
-            tvFeatureApi = TVFeatureImpl()
+            tvFeatureApi = TVFeatureImpl(),
+            artistFeatureApi = ArtistFeatureImpl()
         )
 
         setContent {

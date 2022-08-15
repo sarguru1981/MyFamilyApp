@@ -3,6 +3,7 @@
  */
 object BuildAndroidConfig {
     const val APPLICATION_ID = "com.avr.myfamilyapp"
+    const val ARTIST_APPLICATION_ID = "com.avr.feature_artist_impl"
 
     const val COMPILE_SDK_VERSION = 32
     const val MIN_SDK_VERSION = 21

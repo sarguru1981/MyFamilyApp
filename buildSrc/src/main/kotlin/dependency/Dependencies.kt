@@ -59,4 +59,36 @@ object Dependencies {
     const val SYSTEM_UI = "com.google.accompanist:accompanist-systemuicontroller:${BuildDependencyVersions.system_ui_version}"
 
     const val COMPOSE_UI_UTIL = "androidx.compose.ui:ui-util:${BuildDependencyVersions.compose_version}"
+
+    /*const val RX_JAVA =  "io.reactivex.rxjava2:rxjava:${BuildDependencyVersions.rx_java}"
+
+    const val RX_ANDROID = "io.reactivex.rxjava2:rxandroid:${BuildDependencyVersions.rx_android}"*/
+
+    const val RX_JAVA =  "io.reactivex.rxjava3:rxjava:${BuildDependencyVersions.rx_java3}"
+
+    const val RX_ANDROID = "io.reactivex.rxjava3:rxandroid:${BuildDependencyVersions.rx_android3}"
+
+    const val RX_ADAPTER = "com.squareup.retrofit2:adapter-rxjava2:${BuildDependencyVersions.rx_adapter}"
+
+    const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:${BuildDependencyVersions.constraint_layout}"
+
+    const val NAVIGATION_FRAGMENT = "androidx.navigation:navigation-fragment-ktx:${BuildDependencyVersions.navigation_fragment}"
+
+    const val NAVIGATION_KTX = "androidx.navigation:navigation-ui-ktx:${BuildDependencyVersions.navigation_fragment}"
+
+    const val ACTIVITY_KTX = "androidx.activity:activity-ktx:${BuildDependencyVersions.activity_ktx}"
+    const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${BuildDependencyVersions.activity_ktx}"
+
+    const val PICASSO = "com.squareup.picasso:picasso:${BuildDependencyVersions.picasso}"
+
+    const val MULTIDEX = "androidx.multidex:multidex:${BuildDependencyVersions.multidex}"
+
+    const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:${BuildDependencyVersions.recyclerview}"
+
+    const val GLIDE = "com.github.bumptech.glide:glide:${BuildDependencyVersions.glide}"
+
+    const val LIFECYCLE_EXT = "androidx.lifecycle:lifecycle-extensions:${BuildDependencyVersions.lifecycle_ext}"
+    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:${BuildDependencyVersions.lifecycle_livedata}"
+    const val LIFECYCLE_VIEWMODEL_SAVEDSTATE = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${BuildDependencyVersions.lifecycle_livedata}"
+    const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:${BuildDependencyVersions.lifecycle_livedata}"
 }

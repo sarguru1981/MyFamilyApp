@@ -6,10 +6,7 @@ import com.avr.dependency_provider.DependencyProvider
 import com.avr.myfamilyapp.R
 
 enum class RouteName(val routeName: String) {
-    HOME("home"),
     MOVIES("movies"),
-    TV("tv"),
-    PROFILE("profile")
 }
 
 enum class BottomTabs(
@@ -36,9 +33,9 @@ enum class BottomTabs(
         R.drawable.ic_music,
         DependencyProvider.tvFeature().tvRoute()
     ),
-    PROFILE(
+    ARTIST(
         R.string.profile,
         R.drawable.ic_profile,
-        RouteName.PROFILE.routeName
+        DependencyProvider.artistFeature().artistRoute()
     )
 }

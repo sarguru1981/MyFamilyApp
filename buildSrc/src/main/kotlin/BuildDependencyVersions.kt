@@ -49,4 +49,26 @@ object BuildDependencyVersions {
     const val coil = "1.4.0"
 
     const val system_ui_version = "0.17.0"
+
+    // RX
+    const val rx_java = "2.2.21"
+    const val rx_android = "2.1.1"
+    const val rx_adapter = "2.9.0"
+
+    const val rx_java3 = "3.1.5"
+    const val rx_android3 = "3.0.0"
+
+    const val constraint_layout = "2.1.4"
+    const val navigation_fragment = "2.5.1"
+
+    const val activity_ktx = "1.4.0"
+
+    const val picasso = "2.71828"
+
+    const val multidex = "2.0.1"
+
+    const val recyclerview = "1.2.0-alpha06"
+    const val glide = "4.11.0"
+    const val lifecycle_ext = "2.2.0"
+    const val lifecycle_livedata = "2.3.1"
 }
