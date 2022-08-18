@@ -40,15 +40,5 @@ dependencies {
 
     implementation(project(BuildModules.Features.ARTIST_DOMAIN_LAYER))
 
-    addBaseDependencies()
 
-    addTestsDependencies()
-
-    addDaggerDependencies()
-
-    addRXDependencies()
-
-    addRetrofitDependencies()
-
-    addRoomDependencies()
 }

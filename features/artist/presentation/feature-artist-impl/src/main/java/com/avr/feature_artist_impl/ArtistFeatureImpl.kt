@@ -7,7 +7,6 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.avr.feature_artist_api.ArtistFeatureApi
-import com.avr.feature_artist_impl.artistlist.ArtistActivity
 
 class ArtistFeatureImpl: ArtistFeatureApi {
     private val baseRoute = "artist"
@@ -21,7 +20,7 @@ class ArtistFeatureImpl: ArtistFeatureApi {
     ) {
         navGraphBuilder.composable(baseRoute) {
             val context = LocalContext.current
-            context.startActivity(Intent(context, ArtistActivity::class.java))
+            //context.startActivity(Intent(context, ArtistActivity::class.java))
             //PopularTVShowListScreen(modifier = modifier, navController = navController)
         }
     }

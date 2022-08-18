@@ -1,6 +1,5 @@
 package com.avr.data.repository.datasourceimpl
 
-import com.avr.data.BuildConfig
 import com.avr.data.mappers.toDomain
 import com.avr.data.repository.BaseRemoteDataSource
 import com.avr.data.repository.TVApiService

@@ -13,12 +13,12 @@ import retrofit2.converter.gson.GsonConverterFactory
 @Module
 class NetworkModule {
 
-   /* @Provides
+    @Provides
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder().baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-    }*/
+    }
 
     @Provides
     fun provideApiService(retrofit: Retrofit): TVApiService {
