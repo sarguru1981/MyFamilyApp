@@ -14,9 +14,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2f8b7f041e6113e311106de2b4eba59e/transformed/viewbinding-7.2.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6746487880634f51217b19b7a4447767/transformed/viewbinding-7.2.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/352a50a612b659b307644878f2ae242c/transformed/viewbinding-7.2.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f78bec8e2aa133153b673e824dc7b93a/transformed/viewbinding-7.2.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f78bec8e2aa133153b673e824dc7b93a/transformed/viewbinding-7.2.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f78bec8e2aa133153b673e824dc7b93a/transformed/viewbinding-7.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d03345c83c892f9b2d89c6c4e4c65148/transformed/viewbinding-7.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1ea77849a47dde62df3b4766b74b1500/transformed/viewbinding-7.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4f2d15178cf2342bda892a84178555ea/transformed/viewbinding-7.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/710b10f470d2e66b9af0a13a351a9495/transformed/viewbinding-7.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/710b10f470d2e66b9af0a13a351a9495/transformed/viewbinding-7.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/710b10f470d2e66b9af0a13a351a9495/transformed/viewbinding-7.2.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

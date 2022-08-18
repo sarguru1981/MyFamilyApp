@@ -124,6 +124,8 @@ fun DependencyHandler.addRetrofitDependencies() {
     implementation (Dependencies.RETROFIT)
     implementation (Dependencies.RETROFIT_GSON)
     implementation (Dependencies.OKHTTP)
+    implementation(Dependencies.GSON)
+    implementation(Dependencies.OKHTTP_LOG)
 }
 
 fun DependencyHandler.addRoomDependencies() {

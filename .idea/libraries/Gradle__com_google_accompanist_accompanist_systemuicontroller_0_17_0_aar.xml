@@ -18,9 +18,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0e79709540bfc51888a3ab13a19b5613/transformed/accompanist-systemuicontroller-0.17.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/32fa8b9356c41679651548d3520e2adf/transformed/accompanist-systemuicontroller-0.17.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dc2657e6626aff7088da0a32c960935/transformed/accompanist-systemuicontroller-0.17.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d1a52bc648591f4b6edb60e73cdaae1c/transformed/accompanist-systemuicontroller-0.17.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d1a52bc648591f4b6edb60e73cdaae1c/transformed/accompanist-systemuicontroller-0.17.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d1a52bc648591f4b6edb60e73cdaae1c/transformed/accompanist-systemuicontroller-0.17.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dc8597ef5d4fae84ddad2aecb358cf49/transformed/accompanist-systemuicontroller-0.17.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/10391e51930b494c4894ef329d00ec50/transformed/accompanist-systemuicontroller-0.17.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a32136e90903c4edbc5973bd8f76fa6/transformed/accompanist-systemuicontroller-0.17.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e66b057be57b2ccb48389a9ed3da240/transformed/accompanist-systemuicontroller-0.17.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e66b057be57b2ccb48389a9ed3da240/transformed/accompanist-systemuicontroller-0.17.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2e66b057be57b2ccb48389a9ed3da240/transformed/accompanist-systemuicontroller-0.17.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-systemuicontroller/0.17.0/273d046e342b696ec63fd0583a0ad7806d4015ba/accompanist-systemuicontroller-0.17.0-javadoc.jar!/" />

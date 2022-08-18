@@ -19,6 +19,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/feature-base-api/MyFamilyApp.core.feature-base-api.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/feature-base-api/MyFamilyApp.core.feature-base-api.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/feature-base-api/MyFamilyApp.core.feature-base-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/feature-base-api/MyFamilyApp.core.feature-base-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/feature-base-api/MyFamilyApp.core.feature-base-api.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/feature-base-api/MyFamilyApp.core.feature-base-api.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MyFamilyApp.core.network.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/MyFamilyApp.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/MyFamilyApp.features.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/artist/MyFamilyApp.features.artist.iml" filepath="$PROJECT_DIR$/.idea/modules/features/artist/MyFamilyApp.features.artist.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/artist/artist-data/MyFamilyApp.features.artist.artist-data.iml" filepath="$PROJECT_DIR$/.idea/modules/features/artist/artist-data/MyFamilyApp.features.artist.artist-data.iml" />

@@ -15,9 +15,6 @@ android {
 
         testInstrumentationRunner = BuildAndroidConfig.TEST_INSTRUMENTATION_RUNNER
         consumerProguardFiles("consumer-rules.pro")
-
-        buildConfigField("String", "API_KEY", "\"480e2dd0113df13a09a661f5c4f370e0\"")
-        buildConfigField("String","BASE_URL","\"https://api.themoviedb.org/3/\"")
     }
 
     buildTypes {
@@ -39,6 +36,8 @@ android {
 dependencies {
 
     implementation(project(BuildModules.Features.TV_DOMAIN_LAYER))
+
+    implementation(project(BuildModules.Features.CORE_NETWORK))
 
     addBaseDependencies()
 

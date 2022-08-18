@@ -1,9 +1,8 @@
 package com.avr.data.repository
 
-import com.avr.data.BuildConfig
 import com.avr.data.model.tvshowdetail.TVShowDetailDTO
 import com.avr.data.model.tvshowlist.TVShowListDTO
-import com.avr.domain.entities.tvshowdetail.TVShowDetail
+import com.avr.network.BuildConfig
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

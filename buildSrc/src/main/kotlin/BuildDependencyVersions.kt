@@ -71,4 +71,7 @@ object BuildDependencyVersions {
     const val glide = "4.11.0"
     const val lifecycle_ext = "2.2.0"
     const val lifecycle_livedata = "2.3.1"
+
+    const val gson = "2.8.6"
+    const val okhttp_log = "4.8.1"
 }

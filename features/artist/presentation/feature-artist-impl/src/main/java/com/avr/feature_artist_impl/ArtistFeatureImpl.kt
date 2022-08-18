@@ -20,7 +20,7 @@ class ArtistFeatureImpl: ArtistFeatureApi {
     ) {
         navGraphBuilder.composable(baseRoute) {
             val context = LocalContext.current
-            //context.startActivity(Intent(context, ArtistActivity::class.java))
+            context.startActivity(Intent(context, ArtistsActivity::class.java))
             //PopularTVShowListScreen(modifier = modifier, navController = navController)
         }
     }

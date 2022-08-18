@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/dependency-provider" />
             <option value="$PROJECT_DIR$/core/feature-base-api" />
+            <option value="$PROJECT_DIR$/core/network" />
             <option value="$PROJECT_DIR$/features" />
             <option value="$PROJECT_DIR$/features/artist" />
             <option value="$PROJECT_DIR$/features/artist/artist-data" />

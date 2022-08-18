@@ -11,8 +11,12 @@
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.1" />
         <entry key="features/artist/presentation/feature-artist-impl/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1255" />
         <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/activity_artist.xml" value="0.296195652173913" />
+        <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/activity_gallery.xml" value="0.32382246376811596" />
         <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/artist_list_item.xml" value="0.296195652173913" />
+        <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/fragment_artists.xml" value="0.32382246376811596" />
+        <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/holder_artist.xml" value="0.32382246376811596" />
         <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/list_item.xml" value="0.1636271529888551" />
+        <entry key="features/artist/presentation/feature-artist-impl/src/main/res/layout/test.xml" value="0.16312056737588654" />
         <entry key="features/presentation/feature-artist-impl/src/main/res/layout/activity_artist.xml" value="0.1" />
       </map>
     </option>
