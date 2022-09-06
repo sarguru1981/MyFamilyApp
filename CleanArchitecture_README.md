@@ -5,7 +5,9 @@ Because the Clean architecture can be used in any application and platform, itâ€
 
 The main goal is to manage the complexity of the application. You might have seen this graph already:
 
-The circles represent different layers in the app. There are two key things to note:
+<img src="assets/Clean-Architecture-graph.png" alt="Clean architecture" width="550" height="400"/>
+
+A small brief about this is,
 
 * The center circle is the most abstract, and the outer circle is the most concrete. This is called the **Abstraction Principle**. The Abstraction Principle specifies that inner circles should contain business logic, and outer circles should contain implementation details.
 * Another principle of Clean Architecture is the **Dependency Rule**. This rule specifies that each circle can depend only on the nearest inward circle â€” this is what makes the architecture work.
